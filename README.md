@@ -26,6 +26,10 @@ and human-level understanding.
 ![aggregated_skills](repo_imags/skills_high_level.JPG)
 # Results for the high level aggregated skills:
 ![results_2](repo_imags/results_2.JPG)
+# Benchmark statistics:
+![benchmark_statistics_1](repo_imags/statistics_1_with_desc.JPG)
+
+![benchmark_statistics_2](repo_imags/statistics_2_with_desc.JPG)
 
 # How to download videos 
 1- TVQA videos <br>
