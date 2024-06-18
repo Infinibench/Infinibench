@@ -22,6 +22,9 @@ score. We hope this benchmark will stimulate the LMMs community towards long vid
 and human-level understanding.
 # Paper results for ranking the top commercial and open souce models:
 ![results_1](repo_imags/results_1.JPG)
+# High level aggregated skills:
+![aggregated_skills](repo_imags/skills_high_level.JPG)
+# Results for the high level aggregated skills:
 ![results_2](repo_imags/results_2.JPG)
 
 # How to download videos 
