@@ -1,18 +1,16 @@
-# VLV-Bench: A Comprehensive benchmark for very long-form videos understanding
-# Overview
-![VLV-Bench teaser figure](repo_imags/teaser_fig_new.jpg)
+# <img src="repo_imags/icon.png" width=30> InfiniBench: A Comprehensive Benchmark for Large Multimodal Models in Very Long Video Understanding
+# Overview![InfiniBench teaser figure](repo_imags/teaser_fig_new.jpg)
 Understanding long videos, ranging from tens
 of minutes to several hours, presents unique
 challenges in video comprehension. Despite
 the increasing importance of long-form video
 content, existing benchmarks primarily focus
-on shorter clips. To address this gap, we introduce a comprehensive benchmark for Very
-Long Videos understanding (VLV-Bench),
+on shorter clips. To address this gap, we introduce InfiniBench a comprehensive benchmark for very long video understanding,
 which presents 1) The longest video duration,
 averaging 76.34 minutes; 2) The largest number of question-answer pairs, 108.2K; 3) Diversity in questions that examine nine different
 skills and include both multiple-choice questions and open-ended questions; 4) Humancentric, as the video sources come from movies
 and daily TV shows, with specific human-level
-question designs such as Movie Spoiler Questions that require critical thinking and comprehensive understanding. Using VLV-Bench, we
+question designs such as Movie Spoiler Questions that require critical thinking and comprehensive understanding. Using InfiniBench, we
 comprehensively evaluate existing Large MultiModality Models (LMMs) on each skill, including the commercial model Gemini 1.5 Flash
 and the open-source models. The evaluation
 shows significant challenges in our benchmark.Our results show that the best AI models such
@@ -20,16 +18,17 @@ Gemini struggles to perform well with 42.72%
 average accuracy and 2.71 out of 5 average
 score. We hope this benchmark will stimulate the LMMs community towards long video
 and human-level understanding.
-# Paper results for ranking the top commercial and open souce models:
+# Leaderboard for top commercial and open souce models:
 ![results_1](repo_imags/results_1.JPG)
 # High level aggregated skills:
 ![aggregated_skills](repo_imags/skills_high_level.JPG)
-# Results for the high level aggregated skills:
+# Leaderboard for the high level aggregated skills:
 ![results_2](repo_imags/results_2.JPG)
 # Benchmark statistics:
 ![benchmark_statistics_1](repo_imags/statistics_1_with_desc.JPG)
 
 ![benchmark_statistics_2](repo_imags/statistics_2_with_desc.JPG)
+
 
 # How to download videos 
 1- TVQA videos <br>
