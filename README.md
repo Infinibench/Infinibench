@@ -154,7 +154,21 @@ Qwen2.5VL is the strongest contender among open-source models, nearing Gemini-1.
       <td>31.80</td>
       <td>1.35</td>
     </tr>
-    <tr>
+     <tr >
+      <td>InternVL2</td>
+      <td>128 FPV</td>
+      <td>24.60</td>
+      <td>21.98</td>
+      <td>25.00</td>
+      <td>44.63</td>
+      <td>0.69</td>
+      <td>1.68</td>
+      <td>1.25</td>
+      <td>2.47</td>
+      <td>29.05</td>
+      <td>1.52</td>
+    </tr>
+    <tr >
       <td>LLaMA-VID</td>
       <td>1 FPS</td>
       <td>17.37</td>
@@ -167,6 +181,34 @@ Qwen2.5VL is the strongest contender among open-source models, nearing Gemini-1.
       <td>2.40</td>
       <td>23.61</td>
       <td>1.87</td>
+    </tr>
+    <tr>
+      <td>Goldfish</td>
+      <td>45 FPW</td>
+      <td>10.30</td>
+      <td>2.82</td>
+      <td>20.87</td>
+      <td>40.14</td>
+      <td>0.77</td>
+      <td>2.36</td>
+      <td>1.85</td>
+      <td>3.01</td>
+      <td>18.53</td>
+      <td>2.00</td>
+    </tr>
+    <tr>
+      <td>MiniGPT4-video</td>
+      <td>45 FPV</td>
+      <td>2.33</td>
+      <td>1.09</td>
+      <td>2.36</td>
+      <td>39.86</td>
+      <td>0.05</td>
+      <td>0.54</td>
+      <td>0.75</td>
+      <td>0.89</td>
+      <td>11.41</td>
+      <td>0.56</td>
     </tr>
   </tbody>
 </table>
