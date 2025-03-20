@@ -1,5 +1,7 @@
 # <img src="repo_images/icon.png" width=30> InfiniBench: A Benchmark for Large Multi-Modal Models in Long-Form Movies & TV Shows.
-# Overview![InfiniBench teaser figure](repo_images/teaser_fig.png)
+![InfiniBench teaser figure](repo_images/teaser_fig.png)
+<strong>InfiniBench skill set comprising eight skills. The right side represents skill categories and question types, while the left side provides examples of both multiple-choice (MCQ) and open-ended questions.</strong>
+# Overview:
 Understanding long videos, ranging from tens of minutes to several hours, presents unique challenges in video comprehension. We introduce InfiniBench, a comprehensive benchmark designed to push the limits of extremely long video understanding.
 InfiniBench presents **1)The longest** total video duration, exceeding 1,000 hours, with an average of 52.59 minutes per video; **2) The largest** number of question-answer pairs, totaling 111.82 K; **3) Grounding and reasoning questions** that require MVLMs to retrieve, structure, and interpret complex video content while establishing causal relationships; **4) Diverse question types spanning eight distinct skills** and including both multiple-choice and open-ended formats. 
 We comprehensively evaluate the state-of-the-art Large Multi-Modality Models on each skill, including commercial models such as GPT-4o and Gemini 1.5 Flash and recent open-source models. 
@@ -216,9 +218,10 @@ Qwen2.5VL is the strongest contender among open-source models, nearing Gemini-1.
 
 # Benchmark statistics:
 ![benchmark_statistics_1](repo_images/skill_statistics.png)
+<strong>InfiniBench skills statistics. (A) Number of questions per skill, (B) Number of videos per skill, and (C) Average video duration per skill</strong>
 # Videos source statistics:
 ![benchmark_statistics_2](repo_images/shows_vs_movies_statistics.png)
-
+<strong>Comparison between TV shows and Movies. (A) shows the number of questions, (B) represents the number of videos, (C) represents the Total video durations, and (D) shows The Minimum, Maximum, and average video duration for each video source</strong>
 
 # How to download videos 
 1- TVQA videos <br>
@@ -254,6 +257,7 @@ python videos_preprocessing/convert_to_mp4_format.py --video_frames_dir "path to
 You can find the annotation files for the 8 skills in huggingface datasets format [here](https://huggingface.co/datasets/vlv-bench/VLV-Benchmark/tree/main/Benchmark_annotations)
 # How to re-create the Benchmark  
 ![annotation_pipeline](repo_images/annotation_pipeline_new.png)
+<strong>Full annotation pipeline for InfiniBench skill set. The upper section depicts the global appearance pipeline, while the lower section illustrates the question generation using GPT-4o. The gates for video summary and video transcript indicate that some skills utilize only the summary, others use only the transcript, and some use both.</strong>
 ## Prepare the data sources
 ### Data scrapping 
 1) We scrapped the all the TVQA summaries from IMDB. 
