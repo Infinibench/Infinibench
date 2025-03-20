@@ -215,9 +215,9 @@ Qwen2.5VL is the strongest contender among open-source models, nearing Gemini-1.
 <p><strong>InfiniBench leaderboard</strong> across eight skills. FPV (Frames Per Video), FPS (Frames Per Second), and FPW (Frames Per Window) are reported. All models in this evaluation utilize <strong>subtitles</strong>.</p>
 
 # Benchmark statistics:
-![benchmark_statistics_1](repo_images\skill_statistics.png)
+![benchmark_statistics_1](repo_images/skill_statistics.png)
 # Videos source statistics:
-![benchmark_statistics_2](repo_images\shows_vs_movies_statistics.png)
+![benchmark_statistics_2](repo_images/shows_vs_movies_statistics.png)
 
 
 # How to download videos 
@@ -253,7 +253,7 @@ python videos_preprocessing/convert_to_mp4_format.py --video_frames_dir "path to
 # Annotation files 
 You can find the annotation files for the 8 skills in huggingface datasets format [here](https://huggingface.co/datasets/vlv-bench/VLV-Benchmark/tree/main/Benchmark_annotations)
 # How to re-create the Benchmark  
-![annotation_pipeline](repo_images\annotation_pipeline_new.png)
+![annotation_pipeline](repo_images/annotation_pipeline_new.png)
 ## Prepare the data sources
 ### Data scrapping 
 1) We scrapped the all the TVQA summaries from IMDB. 
