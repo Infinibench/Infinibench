@@ -1,5 +1,5 @@
-# <img src="repo_imags/icon.png" width=30> InfiniBench: A Benchmark for Large Multi-Modal Models in Long-Form Movies & TV Shows.
-# Overview![InfiniBench teaser figure](repo_imags/teaser_fig.png)
+# <img src="repo_images/icon.png" width=30> InfiniBench: A Benchmark for Large Multi-Modal Models in Long-Form Movies & TV Shows.
+# Overview![InfiniBench teaser figure](repo_images/teaser_fig.png)
 Understanding long videos, ranging from tens of minutes to several hours, presents unique challenges in video comprehension. We introduce InfiniBench, a comprehensive benchmark designed to push the limits of extremely long video understanding.
 InfiniBench presents **1)The longest** total video duration, exceeding 1,000 hours, with an average of 52.59 minutes per video; **2) The largest** number of question-answer pairs, totaling 111.82 K; **3) Grounding and reasoning questions** that require MVLMs to retrieve, structure, and interpret complex video content while establishing causal relationships; **4) Diverse question types spanning eight distinct skills** and including both multiple-choice and open-ended formats. 
 We comprehensively evaluate the state-of-the-art Large Multi-Modality Models on each skill, including commercial models such as GPT-4o and Gemini 1.5 Flash and recent open-source models. 
@@ -173,9 +173,9 @@ Qwen2.5VL is the strongest contender among open-source models, nearing Gemini-1.
 <p><strong>InfiniBench leaderboard</strong> across eight skills. FPV (Frames Per Video), FPS (Frames Per Second), and FPW (Frames Per Window) are reported. All models in this evaluation utilize <strong>subtitles</strong>.</p>
 
 # Benchmark statistics:
-![benchmark_statistics_1](repo_imags\skill_statistics.png)
+![benchmark_statistics_1](repo_images\skill_statistics.png)
 # Videos source statistics:
-![benchmark_statistics_2](repo_imags\shows_vs_movies_statistics.png)
+![benchmark_statistics_2](repo_images\shows_vs_movies_statistics.png)
 
 
 # How to download videos 
@@ -211,7 +211,7 @@ python videos_preprocessing/convert_to_mp4_format.py --video_frames_dir "path to
 # Annotation files 
 You can find the annotation files for the 8 skills in huggingface datasets format [here](https://huggingface.co/datasets/vlv-bench/VLV-Benchmark/tree/main/Benchmark_annotations)
 # How to re-create the Benchmark  
-![annotation_pipeline](repo_imags\annotation_pipeline_new.png)
+![annotation_pipeline](repo_images\annotation_pipeline_new.png)
 ## Prepare the data sources
 ### Data scrapping 
 1) We scrapped the all the TVQA summaries from IMDB. 
